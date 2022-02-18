@@ -1,0 +1,10 @@
+body {
+    background-color: #21232A;
+    color: aliceblue;
+}
+
+hr {
+    background-color: antiquewhite;
+    height: 1px;
+    border: none;
+}
