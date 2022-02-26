@@ -18,3 +18,5 @@ const JournalScreen = () => {
 }
 
 export default JournalScreen
+
+
