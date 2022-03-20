@@ -15,7 +15,7 @@ export const startLoginEmailPassword = (email, password) => {
         dispatch( login(user.uid, user.displayName));
       })
       .catch( e => {
-        console.log(e);
+        console.log(e); 
         Swal.fire('Error', e.message, 'error');
       })
       .finally( () => {
