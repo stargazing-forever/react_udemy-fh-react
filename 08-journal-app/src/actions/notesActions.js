@@ -62,7 +62,7 @@ export const startUploading = ( file ) => {
         willOpen: () => {         
         Swal.showLoading();       
         },     
-      });
+    });
 
     const fileUrl = await fileUpload(file);
     activeNote.url = fileUrl;
